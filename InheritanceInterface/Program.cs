@@ -21,7 +21,7 @@ namespace InheritanceInterface
                     int productPrice = "Enter a product price: ".GetAInteger();
                     string operatingSystem = "Enter a operating system: ".GetAString();
 
-                    store.Add(new SmartPhone { ProductName = productName, ProductPrice = productPrice, OperatingSystem = operatingSystem });
+                    store.Add(new SmartPhone { ProductName = productName, ProductPrice = productPrice, OperatingSystem = operatingSystem});
                 }
 
                 else
@@ -40,7 +40,7 @@ namespace InheritanceInterface
 
             foreach (IElectronicStore item in store)
             {
-                Console.WriteLine(item.ToString());
+                Console.WriteLine(item.Test());
                 Console.WriteLine();
             }
 

@@ -5,5 +5,7 @@
         string ProductName { get; set; }
         int ProductPrice { get; set; }
 
+        string Test();
+       
     }
 }

@@ -7,7 +7,7 @@
 
         public virtual string Test()
         {
-
+            return $"";
         }
     }
 }
