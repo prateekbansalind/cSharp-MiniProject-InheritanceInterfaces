@@ -2,10 +2,10 @@
 
 namespace InheritanceInterface
 {
-    public class UserMessages
+    public static class UserMessages
     {
 
-        public static string GetAString(string message)
+        public static string GetAString(this string message)
         {
             Console.Write(message);
             string output = Console.ReadLine();
@@ -13,7 +13,7 @@ namespace InheritanceInterface
             return output;
         }
 
-        public static int GetAInteger(string message)
+        public static int GetAInteger(this string message)
         {
             Console.Write(message);
             string outputText = Console.ReadLine();

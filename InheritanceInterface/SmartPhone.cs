@@ -8,5 +8,10 @@
         {
             return $"Product Name : { ProductName } | Product Price :  { ProductPrice }  | Operating System:  { OperatingSystem }";
         }
+
+        public override string Test()
+        {
+            return $"Product Name : { ProductName } | Product Price :  { ProductPrice }  | Operating System:  { OperatingSystem }";
+        }
     }
 }
